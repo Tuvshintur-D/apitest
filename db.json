@@ -1,6 +1,14 @@
-[
-  {"Id":1,"Text":"title 1","Price":19.9,"ImageUrl":"https:\/\/images-na.ssl-images-amazon.com\/images\/G\/01\/kindle\/dp\/2018\/02254378\/desktop_card_a_260x260._CB482472860_SY260_.jpg"},
-  {"Id":2,"Text":"title 2","Price":19.9,"ImageUrl":"https:\/\/images-na.ssl-images-amazon.com\/images\/G\/01\/kindle\/dp\/2018\/02254378\/desktop_card_b_260x260._CB482472860_SY260_.jpg"},
-  {"Id":3,"Text":"title 3","Price":19.9,"ImageUrl":"https:\/\/images-na.ssl-images-amazon.com\/images\/G\/01\/kindle\/dp\/2018\/02254378\/desktop_card_c_260x260._CB482472856_SY260_.jpg"},
-  {"Id":4,"Text":"title 4","Price":19.9,"ImageUrl":"https:\/\/images-na.ssl-images-amazon.com\/images\/G\/01\/kindle\/dp\/2018\/02254378\/desktop_card_c_260x260._CB482472856_SY260_.jpg"}
-]
+{
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
